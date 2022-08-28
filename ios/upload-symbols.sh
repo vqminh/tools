@@ -1,0 +1,2 @@
+find /Users/$USER/Library/Developer/Xcode/DerivedData -name Luki.app.dSYM | while read -r line; do ios/Pods/FirebaseCrashlytics/upload-symbols -gsp ios/GoogleService-Info.plist -p ios "$line"; echo "$line"; done;
+rm -rf /Users/$USER/Library/Developer/Xcode/Archives/
