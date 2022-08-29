@@ -1,5 +1,9 @@
 # sh tools/android/deploy.sh 1.0.10 1605867014
 set -e
+if [[ $# -eq 0 ]] ; then
+    echo 'sh tools/android/deploy.sh 1.0.10 1605867014'
+    exit 1
+fi
 echo versionName=$1
 echo versionCode=$2
 export VERSION_NAME=$1
