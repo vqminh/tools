@@ -1,0 +1,8 @@
+# https://test062020.myshopify.com/admin/oauth/authorize?client_id=c4b14a47bc548d2255fc9bd7311a20dd&scope=unauthenticated_read_product_listings,unauthenticated_write_checkouts,unauthenticated_write_customers,unauthenticated_read_customer_tags,unauthenticated_read_content,unauthenticated_read_product_tags&redirect_uri=https://117e8befc06c.ngrok.io/auth/callback&state=nonce
+# https://117e8befc06c.ngrok.io/?hmac=6dd6b2bdd5f6d13b5d5da9e8d69c2b84e269185297374f8b6dbb8019fdf7f1b8&shop=test062020.myshopify.com&&scope=unauthenticated_read_product_listings,unauthenticated_write_checkouts,unauthenticated_write_customers,unauthenticated_read_customer_tags,unauthenticated_read_content,unauthenticated_read_product_tags
+store='test062020'
+code='dc86ff0501a0294bfb41c3f73910ac4c'
+hmac='3c472f35ac264d39107f60037de0ee47ce38b7acf8ec91c2afefe0fd89f4183f'
+client_id='c4b14a47bc548d2255fc9bd7311a20dd'
+client_secret='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'
+curl -X POST https://${store}.myshopify.com/admin/oauth/access_token -d "code=$code&hmac=$hmac&client_id=$client_id&client_secret=$client_secret"
