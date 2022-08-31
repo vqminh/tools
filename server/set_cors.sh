@@ -1,0 +1,1 @@
+gsutil cors set cors.json gs://marketplace-5c6b3.appspot.com/
