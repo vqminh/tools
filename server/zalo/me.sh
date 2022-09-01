@@ -1,4 +1,4 @@
 curl \
 -X GET \
--H 'access_token: ikSDKT1V906rxmjOqbOc3BZb3rhQIprk_RDCUPbKFNQdhazHcLydPv6dVdwQLZTEl89HMu1f8cdhlsfptGiHMhtuL7VOF3nypzWMMkKKHNZen3bCYWbMQBNeFac-E5X-gT4_H8mrJKEcvmToZ5CjPPECRM-ZIXXecw1_Olvs1qgQbtvBf6CNRPdRCL_v7s1wm_GE8iuyVn3kyIOrp0HoUDZn8KZP55PXmzWjTl1XM7VuhGPszLreJzIGFMlqTsec_ACZCPPLL1YfZpaVdNf4IRcgOao_G3nsfBPBUcfCKe0VODH98m4' \
+-H 'access_token: $1' \
 "https://graph.zalo.me/v2.0/me?fields=id,name,picture"
