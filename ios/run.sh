@@ -1,1 +1,1 @@
-npx react-native run-ios --simulator="iPhone 11 Pro Max"
+npx react-native run-ios --simulator="iPhone 14"
